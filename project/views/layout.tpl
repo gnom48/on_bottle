@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" />7u
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - My Bottle Application</title>
     <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
@@ -14,17 +14,16 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                 </button>
-                <a href="/" class="navbar-brand">Application name</a>
+                <a href="/" class="navbar-brand" >
+                    <img src="static\images\map.png" width="40" height="40">
+                </a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/home" >На главную</a></li>
+                    <li><a href="/about">О нас</a></li>
+                    <li><a href="/contact">Контакты</a></li>
                 </ul>
             </div>
         </div>
