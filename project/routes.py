@@ -33,3 +33,13 @@ def about():
         message='Your application description page.',
         year=datetime.now().year
     )
+
+@route('/spb')
+@view('spb')
+def spb():
+    """Renders the about page."""
+    return dict(
+        title='SPB',
+        message='SPB page',
+        year=datetime.now().year
+    )

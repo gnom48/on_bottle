@@ -1,8 +1,8 @@
 .vs/
 Ivanov_Lab.sln
-Kidalov_Lab/__pycache__/
-Kidalov_Lab/obj/
-Kidalov_Lab/venv/
-Kidalov_Lab/Ivanov_Lab.pyproj
-Kidalov_Lab/Ivanov_Lab.pyproj.user
+project/__pycache__/
+project/obj/
+project/venv/
+project/Ivanov_Lab.pyproj
+project/Ivanov_Lab.pyproj.user
 
