@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'AGReverence-Roman';
+    src: url('/static/fonts/AGReverence-Roman.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 5em;
+    font-family: 'AGReverence-Roman', "Arial", sans-serif;
+    color: #000;
+    font-weight: bolder;
+    letter-spacing: 20px;
+
+    text-align: center;
+
+    width: 100%;
+}
+
+body {
+    height:max-content;
+    background-image: url('https://ucare.timepad.ru/3593ce4f-529e-4a29-9efb-c9e22949a682/poster_event_459350.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20%;
+}
+
+#content-div {
+    background-color: aliceblue;
+    border-radius: 20px;
+
+    width: 60vw;
+    height: 2000px;
+
+    margin: 25% 10%;
+    padding: 1%;
+}
