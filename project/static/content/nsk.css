@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Steamy';
+    src: url('/static/fonts/Steamy.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 5em;
+    font-family: 'Steamy', "Arial", sans-serif;
+    color: #000;
+    font-weight: bolder;
+    letter-spacing: 20px;
+
+    text-align: center;
+
+    width: 100%;
+}
+
+body {
+    height:max-content;
+    background-image: url('/static/images/Norilsk.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 5%;
+}
+
+#content-div {
+    background-color: aliceblue;
+    border-radius: 20px;
+
+    width: 60vw;
+    height: 2000px;
+
+    margin: 50% 10%;
+    padding: 1%;
+}

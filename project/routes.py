@@ -43,3 +43,13 @@ def spb():
         message='SPB page',
         year=datetime.now().year
     )
+
+@route('/nsk')
+@view('nsk')
+def spb():
+    """Renders the about page."""
+    return dict(
+        title='Норильск',
+        message='Насчет Норильска',
+        year=datetime.now().year
+    )
