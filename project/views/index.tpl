@@ -17,7 +17,7 @@
     </div>
     <div class="col-md-4">
         <h2>Норильск</h2>
-        <p>НОРИИИИЛЬСК</p>
+        <p>Что то про Норильск</p>
         <p><a class="btn btn-default" href="/nsk">Вперед</a></p>
     </div>
     <div class="col-md-4">
