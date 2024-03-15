@@ -49,7 +49,7 @@ def spb():
 def spb():
     """Renders the about page."""
     return dict(
-        title='Норильск',
+        title='НОРИЛЬСК',
         message='Насчет Норильска',
         year=datetime.now().year
     )

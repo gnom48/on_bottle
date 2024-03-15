@@ -3,9 +3,9 @@
 </head>
 <body>
     % rebase('layout.tpl', title='Home Page', year=year)
-    <h2>НОРИЛЬСК</h2>
+    <h2>{{ title }}</h2>
 
     <div id="content-div">
-        <p></p>
+        <p>{{ message }}</p>
     </div>
 </body>
