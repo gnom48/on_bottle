@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'AGReverence-Roman';
-    src: url('/static/fonts/AGReverence-Roman.otf');
+    font-family: 'Theater Atlas Deco';
+    src: url('/static/fonts/Theater-Atlas-Deco.otf');
 }
 
 * {
@@ -10,7 +10,7 @@
 
 h2 {
     font-size: 5em;
-    font-family: 'AGReverence-Roman', "Arial", sans-serif;
+    font-family: 'Theater Atlas Deco', "Times New Roman", sans-serif;
     color: #000;
     font-weight: bolder;
     letter-spacing: 20px;
