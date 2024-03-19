@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Theater Atlas Deco';
-    src: url('/static/fonts/Theater-Atlas-Deco.otf');
+    font-family: 'Mirra';
+    src: url('/static/fonts/Mirra.otf');
 }
 
 * {
@@ -8,21 +8,25 @@
     padding: 0;
 }
 
-h2 {
+.header {
     font-size: 5em;
-    font-family: 'Theater Atlas Deco', "Times New Roman", sans-serif;
-    color: #000;
-    font-weight: bolder;
-    letter-spacing: 20px;
 
     text-align: center;
 
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SPB {
+    font-size: 6em;
+    font-family: 'Mirra', "Arial", sans-serif;
+    font-weight: bold;
+    letter-spacing: 20px;
 }
 
 body {
     height:max-content;
-    background-image: url('https://ucare.timepad.ru/3593ce4f-529e-4a29-9efb-c9e22949a682/poster_event_459350.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -31,13 +35,51 @@ body {
     padding-top: 20%;
 }
 
+.SPB_body {
+    background-image: url('/static/images/spb-background.jpg');
+}
+
 #content-div {
+    font-family: 'Century Gothic', "Arial", sans-serif;
+
     background-color: aliceblue;
     border-radius: 20px;
 
     width: 60vw;
-    height: 2000px;
 
-    margin: 25% 10%;
-    padding: 1%;
+    margin: 20% 0% 0% 50%;
+    transform: translate(-50%, 0%);
+
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+div h1 {
+    margin-bottom: 3%;
+}
+
+div p {
+    margin-bottom: 1%;
+}
+
+div ul, div ol {
+    margin-left: 2%;
+}
+
+li {
+    margin-bottom: 0.5%;
+}
+
+.content-image {
+    max-width: 400px;
+}
+
+.img-content-block {
+    display: flex;
+    align-items: top;
+    margin: 0% 3%;
+}
+
+.img-content-block p {
+    margin: 2% 3%
 }

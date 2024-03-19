@@ -46,7 +46,7 @@ def spb():
 
 @route('/nsk')
 @view('nsk')
-def spb():
+def nsk():
     """Renders the about page."""
     return dict(
         title='НОРИЛЬСК',
