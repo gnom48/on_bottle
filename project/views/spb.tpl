@@ -1,39 +1,86 @@
 <head>
-    <link rel="stylesheet" href="/static/content/spb.css"></link>
+    <link rel="stylesheet" href="/static/content/template.css"></link>
 </head>
-<body class="SPB_body">
-    % rebase('layout.tpl', title='Home Page', year=year)
-    <h2 class="header SPB">САНКТ-ПЕТЕРБУРГ</h2>
+<body class="SPB-body">
+    % rebase('layout.tpl', title='Saint Petersburg', year=year)
+    <h2 class="header SPB">{{ title }}</h2>
 
     <div id="content-div">
-        <h1>Заголовок:</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugit beatae provident eum odio eveniet eos, earum, molestias commodi ipsam culpa rem quibusdam, mollitia possimus molestiae impedit dicta ipsum ad!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias reiciendis quis esse impedit doloremque architecto voluptas fuga corrupti nobis harum. Aut, vitae? Recusandae sapiente quam, quaerat officia saepe eligendi aliquid!</p>
-        <ul>
-            <b>Маркированный список:</b>
-            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, ex alias? Id temporibus dolore possimus architecto autem voluptatibus corporis fugiat sequi non, illum tempore similique consequatur, et error expedita! Provident!</li>
-            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, distinctio nesciunt? Cupiditate dolores reiciendis illo dignissimos incidunt fugiat alias molestiae ipsum! Eos, corporis velit. Sed quidem dignissimos neque exercitationem reiciendis!</li>
-        </ul>
-        <p></p>
+        <h2>Краткий экскурс:</h2>
+        <p>Санкт-Петербу́рг (в 1914—1924 годах — Петрогра́д, в 1924—1991 годах — Ленингра́д, разг. — Пи́тер, Петербу́рг, СПб) — второй по численности населения город России. Город федерального значения. Административный центр Северо-Западного федерального округа. Основан 16 (27) мая 1703 года царём Петром I. В 1714—1728 и 1732—1918 годах — столица Российского государства.</p>
+        <h2>Оглавление:</h2>
         <ol>
-            <b>Нумерованный список:</b>
-            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi recusandae aliquam provident doloremque dolor, magni similique eaque veniam temporibus unde eos debitis inventore, sint dolore, iure laudantium cupiditate ad? Commodi!</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia facere tenetur dignissimos accusantium atque. Quidem recusandae explicabo voluptates illo, eum atque mollitia ipsa repellendus, necessitatibus velit itaque voluptas provident quasi?</li>
+            <li><a href="#Петропавловская-крепость">Петропавловская крепость</a></li>
+            <li><a href="#Дворцовая-площадь-и-Эрмитаж">Дворцовая площадь и Эрмитаж</a></li>
+            <li><a href="#Кунсткамера,-Стрелка-Васильевского-острова-и-Дворцовый-мост">Кунсткамера, Стрелка Васильевского острова и Дворцовый мост</a></li>
+            <li><a href="#Исаакиевский-собор-и-Медный-всадник">Исаакиевский собор и Медный всадник</a></li>
+            <li><a href="#Адмиралтейство">Адмиралтейство</a></li>
+            <li><a href="#Казанский-собор-и-Дом-Зингер">Казанский собор и Дом Зингер</a></li>
+            <li><a href="#Спас-на-Крови-и-Русский-музей">Спас на Крови и Русский музей</a></li>
         </ol>
+
         <br>
+        <h2 id="Петропавловская-крепость">Петропавловская крепость</h2>
         <div class="img-content-block">
-            <img class="content-image" src="https://avatars.mds.yandex.net/get-altay/4341149/2a0000017b303b2bf816814eedb169e17f61/orig">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae, excepturi doloremque incidunt eligendi debitis optio vero magni id veniam qui esse cupiditate error magnam! Minus ipsum rerum veniam amet!</p>
+            <img class="content-image" src="/static/images/petropalovskayakrepost.jpg">
+            <p><b>Петропавловская крепость</b> — это то место, откуда в 1703 году начал разрастаться Петербург. Построенная для обороны, она не участвовала ни в одном сражении, благодаря чему прекрасно сохранилась. Большую часть времени Петропавловская крепость являлась тюрьмой. Её закрыли в 1920, а спустя 4 года здесь основали музей.</p>
         </div>
+
         <br>
+        <h2 id="Дворцовая-площадь-и-Эрмитаж">Дворцовая площадь и Эрмитаж</h2>
         <div class="img-content-block reversed">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae, excepturi doloremque incidunt eligendi debitis optio vero magni id veniam qui esse cupiditate error magnam! Minus ipsum rerum veniam amet!</p>
-            <img class="content-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/ESP_N-120.svg/1300px-ESP_N-120.svg.png">
+            <p><b>Эрмитаж</b> - это крупнейший историко-культурный музей России, занимающий одновременно 6 исторических зданий, главным из которых является Зимний дворец. <b>Дворцовая площадь</b>, как главная площадь Санкт-Петербурга, повидала на своём веку немало исторических событий. Здесь в декабре 1825 года состоялось Восстание декабристов, а в октябре 1917 по ней двинулись вооруженные революционные отряды, штурмовавшие Зимний дворец.</p>
+            <img width="500px" class="content-image" src="/static/images/dv_pl.jpg">
         </div>
+        <p class="after-img-content-block-text"> Дворцовая площадь, благодаря единому архитектурному ансамблю, считается одним из красивейших мест города: Главный штаб, Зимний дворец, штаб Гвардейских войск и Александровская колонна.</p>
+
         <br>
+        <h2 id="Кунсткамера,-Стрелка-Васильевского-острова-и-Дворцовый-мост">Кунсткамера, Стрелка Васильевского острова и Дворцовый мост</h2>
         <div class="img-content-block">
-            <img class="content-image" src="https://sun9-44.userapi.com/impf/c303406/v303406709/3528/dhOTtTvx8jk.jpg?size=200x500&quality=96&sign=b504b5bf019166bf75f60c5d191c4b33&type=album">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, molestiae, excepturi doloremque incidunt eligendi debitis optio vero magni id veniam qui esse cupiditate error magnam! Minus ipsum rerum veniam amet!</p>
+            <img style="display: inline;" height="300px" class="content-image" src="/static/images/strelka.jpg">
+            <img style="display: inline;" height="300px" class="content-image" src="/static/images/kunts.jpg" alt="">
+        </div>
+        <p>Дворцовый мост растянулся от Эрмитажа до Стрелки Васильевского острова, а во время развода на его крыльях (разводной части) устраивают шоу с применением проекторов.</p>
+        <p><b>Стрелка Васильевского острова</b> с самого основания города была деловым центром и местом, где каждый знатный человек мечтал иметь дворец. Здесь же находится знаменитая <b>Кунсткамера Петра I</b>, <b>Гостиный двор</b> и здание <b>Биржи</b>, ныне используемое для музейных нужд. На площади перед Биржей разбит небольшой сквер, давно ставший излюбленным местом для фотографий. В центре этого сквера лежит 300-летний якорь, а рядом расположен памятник, посвященный основанию Петербурга. Стрелка всегда славилась своими видами, при этом не только на красоты Невы, но и на великолепный архитектурный ансамбль. Одни из самых узнаваемых мест на Стрелке — это <b>Ростральные колоны</b>, некогда бывшие маяками, а сейчас напоминающие о мощи и величии императорского флота.</p>
+        <p>Петр I не только основал Санкт-Петербург, но и открыл здесь первый в России музей. На весь мир он известен как <b>Кунсткамера</b>, а официально называется Музеем антропологии и этнографии имени Петра Великого. Основу экспозиции составляет уникальное собрание древностей, рассказывающих о быте и истории разных народов. Однако популярен музей стал благодаря Кунсткамере — кабинету анатомических редкостей и аномалий.</p>
+
+        <br>
+        <h2 id="Исаакиевский-собор-и-Медный-всадник">Исаакиевский собор и Медный всадник</h2>
+        <div class="img-content-block reversed">
+            <div>
+                <p>В 1816 году Александр I выбирает архитектором храма юного Огюста Монферрана из Франции. Императору настолько понравился предложенный французом проект, что тот незамедлительно назначил его главным.</p>
+                <p>Строительство затянулось на долгих 40 лет, но результат превзошел все ожидания. Монументальное здание очень быстро стало одной из архитектурных доминант Санкт-Петербурга и главным храмом города.</p>
+            </div>
+            <img width="500px" class="content-image" src="/static/images/vsadnik.jpg">
+        </div>
+        <p class="after-img-content-block-text"> Именно памятнику Петру I на Сенатской площади Пушкин посвятил поэму «Медный всадник», хотя скульптура на пьедестале и выполнена из бронзы. Непростая у этого памятника и основа пьедестала — это мегалит «Гром-камень», при обработке значительно потерявший в размерах.</p>
+
+        <br>
+        <h2 id="Адмиралтейство">Адмиралтейство</h2>
+        <div class="img-content-block">
+            <img class="content-image" src="/static/images/admiral.jpg">
+            <p>В начале XVIII века здание не выглядело столь же красиво, как сейчас, а больше походило на крепость, притом довольно практичную и без изысков. Современное здание <b>Адмиралтейства</b> появилось в первой половине XIX века, когда стало понятно, что предыдущее вовсе не соответствует облику остального Петербурга. На шпиле здания находится один из главных символов города — флюгер-кораблик, прообразом для которого послужил линейный корабль «Ингерманланд» — любимец Петра I. </p>
+        </div>
+
+        <br>
+        <h2 id="Казанский-собор-и-Дом-Зингер">Казанский собор и Дом Зингер</h2>
+        <div class="img-content-block reversed">
+            <p><b>Казанский собор</b> построили с целью размещения внутри списка иконы Казанской Божией Матери. Построили собор всего за 10 лет, и в 1811 году торжественно освятили. Ещё через год грянула Отечественная война, после которой Казанский собор приобрел новое значение и стал местом воинской славы, а в его стенах и ныне покоится великий полководец — Михаил Кутузов.</p>
+            <img width="500px" class="content-image" src="/static/images/zinger_kazan.png">
+        </div>
+        <p class="after-img-content-block-text">Компании <b>«Зингер»</b> требовалось представительное здание в деловом центре Петербурга, поэтому в 1902 году они поручили эту задачу архитектору Павлу Сюзору. Тот решил не только великолепно выполнить заказ, но и эффектно обойти существовавший тогда запрет. Болотистые почвы города не подходили для строительства высотных зданий, поэтому было установлено ограничение в 11 саженей (23,5 м). Сюзор построил фасад по всем требованиям, а вот мансарду, к которой ограничения уже не применялись, он возвел выше 11 саженей. Таким образом, дом компании «Зингер» в 1904 году стал самым высоким зданием в Санкт-Петербурге.</p>
+
+        <br>
+        <h2 id="Спас-на-Крови-и-Русский-музей">Спас на Крови и Русский музей</h2>
+        <div class="img-content-block">
+            <img class="content-image" src="/static/images/spas.jpg">
+            <p><b>Храм Спаса на Крови</b> заметно выделяется на фоне архитектурного ансамбля Санкт-Петербурга, смело следуя устоявшимся в православном зодчестве традициям. Однако причина для его строительства печальная, а название говорящее, ведь храм действительно построен там, где пролилась кровь. 13 марта 1881 года здесь от рук террористов погиб император России Александр II.</p>
+        </div>
+        <p class="after-img-content-block-text">Нигде не найти столько работ русских художников и скульпторов, сколько их представлено в <b>Русском музее</b>, славящимся крупнейшей коллекцией предметов русского искусства. Собрание картин, скульптур, монет, народного творчества и прочих экспонатов настолько велико, что размещается в пяти зданиях одновременно. Главное из них — это <b>Михайловский дворец</b>, принадлежавший князю Михаилу Павловичу — младшему брату Александра I.</p>
+
+        <br>
+        <div class="map-div">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5c9feb3e17d82230a2f22c2750369a0810f806c51f3f68d5234e6c079a1cfc8b&amp;width=800&amp;height=550&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
     </div>
 </body>

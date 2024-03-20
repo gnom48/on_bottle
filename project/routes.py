@@ -39,8 +39,7 @@ def about():
 def spb():
     """Renders the about page."""
     return dict(
-        title='SPB',
-        message='SPB page',
+        title='САНКТ-ПЕТЕРБУРГ',
         year=datetime.now().year
     )
 
