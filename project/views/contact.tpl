@@ -1,16 +1,15 @@
 % rebase('layout.tpl', title=title, year=year)
 
 <h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    Иванов Е. С.<br />
+    Кидалов Д. А.<br />
+    Силкович М. А.<br />
+    <abbr title="Телефон:">P:</abbr>
+    +7 (911) 175-81-00
 </address>
 
 <address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Поддержка:</strong>   <a href="gnommar48@gmail.com">Support@example.com</a><br />
 </address>

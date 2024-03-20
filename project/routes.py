@@ -19,8 +19,7 @@ def home():
 def contact():
     """Renders the contact page."""
     return dict(
-        title='Contact',
-        message='Your contact page.',
+        title='КОНТАКТЫ',
         year=datetime.now().year
     )
 
@@ -29,8 +28,7 @@ def contact():
 def about():
     """Renders the about page."""
     return dict(
-        title='About',
-        message='Your application description page.',
+        title='О нас',
         year=datetime.now().year
     )
 
@@ -40,7 +38,6 @@ def spb():
     """Renders the about page."""
     return dict(
         title='SPB',
-        message='SPB page',
         year=datetime.now().year
     )
 
@@ -50,6 +47,5 @@ def nsk():
     """Renders the about page."""
     return dict(
         title='НОРИЛЬСК',
-        message='Насчет Норильска',
         year=datetime.now().year
     )

@@ -44,6 +44,14 @@ body {
     padding-top: 20%;
 }
 
+.after-img-content-block-text {
+    margin-left: 6%;
+}
+
+.map-div {
+    margin: 3%;
+}
+
 .SPB_body {
     background-image: url('/static/images/spb-background.jpg');
 }
