@@ -2,6 +2,7 @@
     font-family: 'Mirra';
     src: url('/static/fonts/Mirra.otf');
 }
+
 @font-face {
     font-family: 'Steamy';
     src: url('/static/fonts/Steamy.otf');
@@ -28,6 +29,7 @@
     font-weight: bold;
     letter-spacing: 20px;
 }
+
 .NSK {
     font-family: 'Steamy', "Arial", sans-serif;
     color: #fff;
@@ -44,23 +46,18 @@ body {
     padding-top: 20%;
 }
 
-.after-img-content-block-text {
-    margin-left: 6%;
-}
-
-.map-div {
-    margin: 3%;
-}
-
 .SPB_body {
     background-image: url('/static/images/spb-background.jpg');
 }
+
 .NSK_body {
     background-image: url('/static/images/nsk-background.jpg');
 }
+
 #content-div {
     font-family: 'Century Gothic', "Arial", sans-serif;
     font-size: 1.3em;
+
     background-color: aliceblue;
     border-radius: 20px;
 
@@ -81,7 +78,6 @@ div p {
     margin-bottom: 1%;
 }
 
-
 div ul, div ol {
     margin-left: 2%;
 }
@@ -97,9 +93,22 @@ li {
 .img-content-block {
     display: flex;
     align-items: top;
-    margin: 0% 3%;
+    margin: 1% 3%;
+}
+
+.img-content-block img {
+    margin: 0% 1%;
+    box-sizing: border-box;
 }
 
 .img-content-block p {
-    margin: 2% 3%
+    margin: 2% 1%
+}
+
+.after-img-content-block-text {
+    margin-left: 3.5%;
+}
+
+.map-div {
+    margin: 3%;
 }
