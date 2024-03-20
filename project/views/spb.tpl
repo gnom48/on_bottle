@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="/static/content/spb.css"></link>
+    <link rel="stylesheet" href="/static/content/template.css"></link>
 </head>
 <body class="SPB_body">
     % rebase('layout.tpl', title='Home Page', year=year)
