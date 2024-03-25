@@ -49,3 +49,14 @@ def nsk():
         title='НОРИЛЬСК',
         year=datetime.now().year
     )
+
+
+@route('/kng')
+@view('kng')
+def kng():
+    """Renders the about page."""
+    return dict(
+        title='КИНГИСЕПП',
+        message='Все про Ям-Ямбург-Кингисепп',
+        year=datetime.now().year
+    )
