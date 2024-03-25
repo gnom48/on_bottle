@@ -1,7 +1,7 @@
 <head>
     <link rel="stylesheet" href="/static/content/template.css"></link>
 </head>
-<body class="SPB-body">
+<body class="SPB_body">
     % rebase('layout.tpl', title='Saint Petersburg', year=year)
     <h2 class="header SPB">{{ title }}</h2>
 
