@@ -8,6 +8,11 @@
     src: url('/static/fonts/Steamy.otf');
 }
 
+@font-face {
+    font-family: 'Metro';
+    src: url('/static/fonts/Metro.otf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +41,12 @@
     letter-spacing: 20px;
 }
 
+.KNG {
+    font-family: 'Metro', "Arial", sans-serif;
+    color: #e5e5e5;
+    letter-spacing: 20px;
+}
+
 body {
     height:max-content;
     background-repeat: no-repeat;
@@ -52,6 +63,10 @@ body {
 
 .NSK_body {
     background-image: url('/static/images/nsk-background.jpg');
+}
+
+.KNG_body {
+    background-image: url('/static/images/kng-background.jpg');
 }
 
 #content-div {

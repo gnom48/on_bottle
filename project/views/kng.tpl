@@ -1,8 +1,8 @@
 <head>
     <link rel="stylesheet" href="/static/content/template.css"></link>
 </head>
-<body class="KNG-body">
-    % rebase('layout.tpl', title='Saint Petersburg', year=year)
+<body class="KNG_body">
+    % rebase('layout.tpl', title='Kingisepp', year=year)
     <h2 class="header KNG">{{ title }}</h2>
 
     <div id="content-div">
@@ -59,8 +59,8 @@
         </div>
 
         <br>
+        <p>Карта интересных мест города</p>
         <div class="map-div">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5c9feb3e17d82230a2f22c2750369a0810f806c51f3f68d5234e6c079a1cfc8b&amp;width=800&amp;height=550&amp;lang=ru_RU&amp;scroll=true"></script>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acc2b2f738ebe7189fe498e5f9ad264d71a0a231f7b39e2ae998b7b0f600d4e29&amp;width=1000&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
-    </div>
 </body>
